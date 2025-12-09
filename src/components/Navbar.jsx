@@ -5,7 +5,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 150) {
+            if (window.scrollY > 50) {
                 setActive(true);
             } else {
                 setActive(false);
@@ -18,18 +18,45 @@ const Navbar = () => {
     }, []);
 
     return (
-      <div className="navbar py-7 flex items-center justify-between">
-          <div className="logo">
-              <h1 className="text-3xl font-bold bg-white text-black p-1 md:bg-transparent md:text-white">Portfolio</h1>
-          </div>
-          <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 
-            md:translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none ${active ? "top-0 opacity-100" : "top-10 opacity-0"}`}>
-              <li><a href="#" className="sm:text-lg text-base font-medium">Beranda</a></li>
-              <li><a href="#" className="sm:text-lg text-base font-medium">Tentang</a></li>
-              <li><a href="#" className="sm:text-lg text-base font-medium">Sertifikat</a></li>
-              <li><a href="#" className="sm:text-lg text-base font-medium">Kontak</a></li>
-          </ul>
+     <div
+      className={`navbar fixed top-0 left-0 w-full z-50 transition-all duration-300 px-4 md:px-10 flex items-center justify-between
+      ${active ? "bg-zinc-900/80 backdrop-blur-md py-4 shadow-lg" : "bg-transparent py-7"}`}
+     >
+      
+      {/* Container agar logo & menu sejajar dengan konten website */}
+      <div className="w-full max-w-6xl mx-auto flex items-center justify-between">
+        
+        <div className="logo">
+          <h1 className="text-2xl md:text-3xl font-bold text-white cursor-pointer">
+            Portfolio
+          </h1>
+        </div>
+
+        <ul className="flex items-center sm:gap-10 gap-6">
+          <li>
+            <a href="#" className="text-white sm:text-lg text-base font-medium hover:text-violet-400 transition">
+              Beranda
+            </a>
+          </li>
+          <li>
+            <a href="#" className="text-white sm:text-lg text-base font-medium hover:text-violet-400 transition">
+              Tentang
+            </a>
+          </li>
+          <li>
+            <a href="#" className="text-white sm:text-lg text-base font-medium hover:text-violet-400 transition">
+              Sertifikat
+            </a>
+          </li>
+          <li>
+            <a href="#" className="text-white sm:text-lg text-base font-medium hover:text-violet-400 transition">
+              Kontak
+            </a>
+          </li>
+        </ul>
+
       </div>
+    </div> 
     )
 }
 
