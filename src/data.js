@@ -37,7 +37,7 @@ export const listCert = [
     ket: "Komdigi",
     tahun: "Juni 2025",
     unique: "93106181160-31/VSGA/BLSDM.Komdigi/2025",
-    gambar: "/assets/cert/vsga.png"
+    gambar: cert4
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const listCert = [
     ket: "DOT Indonesia",
     tahun: "April 2022",
     unique: "UKK.28.314",
-    gambar: "/assets/cert/ukk.png"
+    gambar: cert3
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const listCert = [
     ket: "Microsoft",
     tahun: "Desember 2021",
     unqiue: "REnn-FVpT",
-    gambar: "/assets/cert/mta-db.png"
+    gambar: cert2
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ export const listCert = [
     ket: "Microsoft",
     tahun: "April 2021",
     unqiue: "LNK7-sFcm",
-    gambar: "/assets/cert/mta-js.png"
+    gambar: cert1
   }
 ]
 
@@ -166,63 +166,5 @@ export const listTools = [
     nama: "Google Colab",
     ket: "Design App",
     dad: "1200",
-  },
-];
-
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
-
-export const listProyek = [
-  {
-    id: 1,
-    gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
-    dad: "200",
-  },
-  {
-    id: 2,
-    gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
-    dad: "300",
-  },
-  {
-    id: 3,
-    gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-    dad: "400",
-  },
-  {
-    id: 4,
-    gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    dad: "500",
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
   },
 ];
