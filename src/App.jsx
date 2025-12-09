@@ -5,13 +5,9 @@ function App() {
     <>
       <div className="hero grid grid-cols-2">
         <div>
-          <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
-            <img src={DataImage.HeroImage} alt="" className="w-10 rounded-md" />
-            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, deleniti.</q>
-          </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Rafi Ody Prasetyo</h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi adipisci cupiditate aperiam magnam qui amet, porro aliquam. Autem nemo aut similique et officia laborum expedita.
+            Perkenalkan, nama saya Rafi Ody Prasetyo. Sebagai mahasiswa Teknologi Informasi di Politeknik Negeri Malang. Saya memiliki minat spesifik dalam pengembangan perangkat lunak, teknologi web, dan rekayasa data. Melalui berbagai proyek yang saya kerjakan, saya terus mengasah kemampuan problem-solving dan teknis saya. Tujuan saya sederhana: tumbuh menjadi developer yang serba bisa dan siap berkontribusi dalam industri teknologi.
           </p>
           <div>
             <a href="#" className="bg-violet-500 p-4 rounded-2xl hover:bg-violet-300">
@@ -19,7 +15,7 @@ function App() {
             </a>
           </div>
         </div>
-        <img src={DataImage.HeroImage} alt="" className="w-[500px] ml-auto" />
+        <img src={DataImage.HeroImage} alt="" className="w-[400px] h-[500px] rounded-2xl ml-auto" />
       </div>
     </>
   )
